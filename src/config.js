@@ -10,8 +10,8 @@ if (process.env.REACT_APP_CI) {
 }
 
 export default {
-  apiUrl: host + ":" +port,
-  artistsApiUrl: "http://localhost:8000/uploads/artists/",
-  albumsApiUrl: "http://localhost:8000/uploads/albums/",
-  tracksApiUrl: "http://localhost:8000/uploads/tracks/"
+  apiUrl: host + ":" + port,
+  artistsApiUrl: host + ":" + port + "/uploads/artists/",
+  albumsApiUrl: host + ":" + port + "/uploads/albums/",
+  tracksApiUrl: host + ":" + port + "/uploads/tracks/",
 };
