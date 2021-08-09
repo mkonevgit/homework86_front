@@ -29,7 +29,7 @@ const TopToolbar = () => {
                <Grid container justify="space-between" alignItems="center">
                   <Typography variant="h5">
                      <Link className={classes.mainLink} to="/">
-                        Popular Tracks Library. Assembly 1.7
+                        Popular Tracks Library. Assembly 1.8
                      </Link>
                   </Typography>
                   <Grid item>
