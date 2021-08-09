@@ -1,10 +1,6 @@
 let port = 8000;
 let host = "http://localhost";
 
-if (process.env.REACT_APP_NODE_ENV === 'test') {
-  port = 8010;
-}
-
 if (process.env.REACT_APP_CI) {
   host = "http://glamping-ci.ddns.net";
 }
