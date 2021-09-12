@@ -2,7 +2,7 @@ let port = 8001;
 let host = "http://localhost";
 
 if (process.env.REACT_APP_CI) {
-  host = "http://glamping-ci.ddns.net";
+  host = "http://164.90.180.194";
 }
 
 export default {
