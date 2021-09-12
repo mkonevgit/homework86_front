@@ -131,8 +131,6 @@ function ElevateAppBar(props) {
    }
 
 
-
-
    useEffect(() => {
       let checkedA = localStorage.getItem("showNotifications") === "true" ? true : false;
       setState(prevState => { return {...prevState, checkedA: checkedA}});

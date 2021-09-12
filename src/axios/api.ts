@@ -19,6 +19,9 @@ export const instance = axios.create({
    baseURL: config.apiUrl
 });
 
+const localValue = localStorage.getItem('showNotifications');
+if (!localValue) {localStorage.setItem('showNotifications', 'true');}
+
 const showNotifications = localStorage.getItem("showNotifications") === "true" ? true : false;
 
 if (showNotifications) {
